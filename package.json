@@ -1,21 +1,15 @@
+
 {
-  "name": "cse341-apicourse-code",
+  "name": "w2personal",
   "version": "1.0.0",
-  "description": "code to give to students for the cse341 course",
-  "main": "server.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nathanbirch/cse341-apiCourse-code.git"
-  },
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nathanbirch/cse341-apiCourse-code/issues"
-  },
-  "homepage": "https://github.com/nathanbirch/cse341-apiCourse-code#readme",
   "dependencies": {
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
@@ -23,6 +17,6 @@
     "mongodb": "^4.13.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^1.19.4"
   }
 }
